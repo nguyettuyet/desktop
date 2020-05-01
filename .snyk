@@ -1,0 +1,130 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - awesome-typescript-loader > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - webpack-merge > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - eslint > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - webpack-bundle-analyzer > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-generator > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-template > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - eslint > table > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-template > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-register > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - spectron > webdriverio > archiver > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - spectron > webdriverio > inquirer > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - spectron > webdriverio > gaze > globule > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - spectron > webdriverio > archiver > archiver-utils > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - spectron > webdriverio > archiver > async > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - spectron > webdriverio > archiver > zip-stream > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - spectron > webdriverio > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:08:57.587Z'
