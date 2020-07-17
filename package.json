@@ -51,7 +51,7 @@
     "yarn": ">= 1.5.0"
   },
   "dependencies": {
-    "ajv": "^6.4.0",
+    "ajv": "^6.12.3",
     "awesome-node-loader": "^1.1.0",
     "awesome-typescript-loader": "^5.0.0",
     "aws-sdk": "^2.23.0",
@@ -65,7 +65,7 @@
     "clean-webpack-plugin": "^0.1.19",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.11",
-    "eslint": "^4.19.1",
+    "eslint": "^5.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-json": "^1.2.0",
@@ -85,7 +85,7 @@
     "octicons": "^7.0.1",
     "parallel-webpack": "^2.3.0",
     "prettier": "1.13.0",
-    "request": "^2.72.0",
+    "request": "^2.88.0",
     "rimraf": "^2.5.2",
     "sass-loader": "^7.0.1",
     "semver": "^5.5.0",
